@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+
+
+  /* div {
+    display: block;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:70px;
+    padding-left: 40px;
+    margin: 80px;
+    margin-left:20px;
+    float: left;
+  } */
+
+  * {
+    margin: 0;
+  }
+
+.container {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(1fr));
+  gap: 1px; 
+  background: black; 
+
+}
+
+    .item {
+    height: 300px;
+    width: 100%;
+    position: sticky;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  background: white; 
+  }
+.title {
+  position: fixed;
+    width: 100%;
+    z-index: 100;
+    bottom: 0;
+    text-align: center
+}
+  </style>
+</head>
+<body>
+  
+  <div class="title">
+    Pleasures,
+    Bertolt Brecht
+    </div>
+    
+
+<div class="container">
+
+<div class="item"> First look from morning's window </div>
+<div class="item">  The rediscovered book </div> 
+  <div class="item">  Fascinated faces </div> 
+  <div class="item"> Snow, the change of the seasons </div> 
+      <div class="item">   The newspaper </div> 
+      <div class="item"> The dog </div> 
+          <div class="item">  Dialectics </div> 
+          <div class="item"> Showering, swimming </div> 
+              <div class="item">  Old music </div> 
+              <div class="item"> Comfortable shoes </div> 
+                  <div class="item">  Comprehension </div> 
+                  <div class="item"> New music </div> 
+                      <div class="item">  Writing, planting </div> 
+                      <div class="item">  Traveling </div> 
+                          <div class="item">   Singing </div> 
+                          <div class="item"> Being friendly </div> 
+
+</div>
+
+
+</body>
+</html>
